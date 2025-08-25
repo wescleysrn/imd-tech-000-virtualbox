@@ -1,118 +1,109 @@
 # Iamandu Tech - VirtualBox do Zero ao Web Server
 
-**SUMÁRIO**
+**TABELA DE CONTEÚDO**
 
-[]{#anchor}
+[1 - INTRODUÇÃO AO VIRTUALBOX](./modulo_1.md)
 
-[]{#anchor-1}1 - INTRODUÇÃO AO VIRTUALBOX
+[1.1 - O QUÊ É O VIRTUALBOX](./modulo_1.md#11-o-que-é-o-virtualbox-)
 
-## Módulo 1 – Introdução ao VirtualBox
+[1.2 - POR QUE USAR O VIRTUALBOX ?](./modulo_1.md#12-por-que-usar-o-virtualbox-)
 
-**🎯 Objetivo**
-<p align="justify">Apresentar o VirtualBox, seus principais casos de uso e diferenciais para quem deseja criar ambientes virtuais para testes, desenvolvimento ou aprendizado.</p> 
+[1.3 - CASOS DE USO COMUNS](./modulo_1.md#13-casos-de-uso-comuns)
 
-### 1.1 O que é o VirtualBox ?
+[1.4 - ALTERNATIVAS AO VIRTUALBOX](./modulo_1.md#14-alternativas-ao-virtualbox)
 
-<p align="justify">O VirtualBox é um software de virtualização de código aberto, desenvolvido e mantido pela Oracle, que permite criar e gerenciar máquinas virtuais em seu computador. Em outras palavras, ele possibilita executar sistemas operacionais adicionais – chamados de convidados – dentro de um sistema operacional principal – chamado de hospedeiro.</p>
-<p align="justify">Imagine que você tenha um computador rodando Windows, mas precisa trabalhar com Linux ou até mesmo com outra versão do próprio Windows. Com o VirtualBox, você pode criar um ambiente virtual onde esse sistema extra rodará de forma isolada, sem alterar a configuração principal do seu computador.</p>
-<p align="justify">Uma das grandes vantagens do VirtualBox é que ele é multiplataforma: funciona no Windows, Linux, macOS e até em algumas distribuições Solaris. Além disso, suporta uma ampla variedade de sistemas operacionais como convidados, incluindo várias distribuições Linux, versões do Windows, BSD, e outros sistemas menos comuns.</p>
+[2 – INSTALAÇÃO E CONFIGURAÇÃO INICIAL](./modulo_2.md)
 
-### 1.2 Por que usar o VirtualBox ?
+[2.1 - REQUISITOS](./modulo_2.md#21-requisitos)
 
-<p align="justify">Existem diversos motivos para escolher o VirtualBox como ferramenta de virtualização, entre eles:</p>
+[2.2 - BAIXANDO O VIRTUALBOX](./modulo_2.md#22-baixando-o-virtualbox)
 
-- **Custo Zero:** <p align="justify">Ele é totalmente gratuito para uso pessoal e educacional, com licença GPL (na versão de código aberto).</p>
+[2.3 - INSTALANDO O VIRTUALBOX](./modulo_2.md#23-instalando-o-virtualbox)
 
-- **Versatilidade:** <p align="justify">Permite criar máquinas virtuais para os mais variados fins, desde testes de software até simulação de ambientes de produção.</p>
+[2.4 - PRIMEIROS PASSOS](./modulo_2.md#24-primeiros-passos)
 
-- **Isolamento e Segurança:** <p align="justify">O sistema virtual não interfere diretamente no sistema hospedeiro, minimizando riscos de instabilidade ou infecção por malware.</p>
+[2.5 - CRIANDO SUA PRIMEIRA VM](./modulo_2.md#25-criando-sua-primeira-vm-sem-instalar-ainda)
 
-- **Facilidade de Uso:** <p align="justify">Interface intuitiva e recursos que facilitam a criação, configuração e gerenciamento de máquinas virtuais.</p>
+[2.6 - CONFIGURAÇÕES ADICIONAIS](./modulo_2.md#26-configurações-adicionais-antes-da-instalação)
 
-- **Compatibilidade Ampla:** <p align="justify">Suporte para vários sistemas operacionais, além de recursos como USB pass-through, snapshots e compartilhamento de pastas.</p>
+[2.7 - SNAPSHOTS](./modulo_2.md#27-snapshots)
 
-<p align="justify">Na prática, usar o VirtualBox significa poder experimentar, testar e aprender sem comprometer a estabilidade do seu sistema principal. É como ter vários computadores dentro de um só.</p>
+[3 - TEMPLATES E SISTEMAS LINUX](./modulo_3.md)
 
-### 1.3 Casos de uso comuns
+[3.1 - O QUE SÃO TEMPLATES (OU ISOS) ?](./modulo_3.md#31---o-que-são-templates-ou-isos-)
 
-<p align="justify">O VirtualBox é uma ferramenta versátil, utilizada em diferentes contextos. Alguns exemplos práticos incluem:</p>
+[3.2 - ONDE ENCONTRAR ISOS DE DISTRIBUIÇÕES LINUX ?](./modulo_3.md#32---onde-encontrar-iso-de-distribuições-linux-)
 
-**1 - Ambientes de Desenvolvimento**
-<p align="justify">Desenvolvedores podem criar ambientes controlados para testar aplicativos em diferentes sistemas operacionais sem precisar de múltiplos computadores físicos.</p>
+[3.3 - ESCOLHENDO A ISO DO ORACLE LINUX](./modulo_3.md#33---escolhendo-a-iso-do-oracle-linux)
 
-**2 - Laboratórios de Teste e Aprendizado**
-<p align="justify">Estudantes e profissionais de TI utilizam o VirtualBox para estudar redes, servidores e sistemas operacionais, simulando cenários reais de forma segura.</p>
+[3.4 - VERIFICANDO INTEGRIDADE (OPCIONAL, MAS RECOMENDADO)](./modulo_3.md#34---verificando-integridade-opcional-mas-recomendado)
 
-**3 - Testes de Segurança e Pentest**
-<p align="justify">É possível criar máquinas virtuais para testar ferramentas de segurança e realizar auditorias sem colocar em risco o ambiente real.</p>
+[3.5 - DICA: SITES COM VMS PRONTAS](./modulo_3.md#35---dica-sites-com-vms-prontas)
 
-**4 - Compatibilidade de Software**
-<p align="justify">Softwares antigos ou legados podem ser executados em sistemas antigos instalados virtualmente, mesmo que o hardware físico seja moderno.</p>
+[4 - CRIANDO E INSTALANDO ORACLE LINUX](./modulo_4.md)
 
-**5 - Simulação de Ambientes Corporativos**
-<p align="justify">Administradores podem criar múltiplas máquinas virtuais para simular servidores e estações de trabalho, facilitando treinamentos e testes.</p>
+[4.1 - CRIANDO A MÁQUINA VIRTUAL](./modulo_4.md#41---criando-a-máquina-virtual)
 
-### 1.4 Alternativas ao VirtualBox
+[4.2 - CONFIGURANDO A ISO PARA BOOT](./modulo_4.md#42---configurando-a-iso-para-boot)
 
-<p align="justify">Embora o VirtualBox seja uma solução muito popular, existem outras ferramentas de virtualização que podem ser usadas em diferentes cenários. Entre as principais:</p>
+[4.3 - AJUSTES RECOMENDADOS NA VM](./modulo_4.md#43---ajustes-recomendados-na-vm)
 
-- **VMware Workstation / VMware Player**
-  <p align="justify">Ferramenta robusta e com mais recursos avançados em algumas áreas, muito utilizada por profissionais. Possui versão gratuita (Player) e versão paga (Workstation Pro).</p>
-- **Microsoft Hyper-V**
-  <p align="justify">Integrado ao Windows 10/11 Pro e Windows Server, é uma solução de virtualização da própria Microsoft, focada em ambientes corporativos.</p>
-- **Proxmox VE**
-  <p align="justify">Plataforma de virtualização e gerenciamento de contêineres baseada em Linux, muito utilizada em servidores.</p>
-- **KVM (Kernel-based Virtual Machine)**
-  <p align="justify">Tecnologia nativa do Linux para virtualização, indicada para usuários avançados e ambientes de produção.</p>
-- **Parallels Desktop**
-  <p align="justify">Voltada principalmente para usuários de macOS, permitindo rodar Windows e Linux com integração otimizada.</p>
+[4.4 - INICIANDO A INSTALAÇÃO](./modulo_4.md#44---iniciando-a-instalação)
 
-<p align="justify">Cada alternativa tem seus pontos fortes e fracos. O VirtualBox se destaca pela facilidade de uso, compatibilidade, custo zero e grande comunidade de suporte.</p>
+[4.5 - PASSOS DA INSTALAÇÃO (GUI)](./modulo_4.md#45---passos-da-instalação-gui)
 
-## Módulo 2 – Instalação e Configuração Inicial
+[4.6 - AGUARDANDO E FINALIZANDO](./modulo_4.md#46---aguardando-e-finalizando)
 
-🎯 Objetivo
-<p align="justify">Guiar o aluno na instalação do VirtualBox e na criação do ambiente básico para executar máquinas virtuais.</p>
+[4.7 - PRIMEIRO LOGIN](./modulo_4.md#47---primeiro-login)
 
-### 2.1 Requisitos
+[5 - CONFIGURANDO REDE COM IP FIXO](./modulo_5.md)
 
-<p align="justify">Antes de instalar o VirtualBox, é importante verificar se seu computador atende aos requisitos mínimos para executar máquinas virtuais de forma satisfatória:</p>
+[5.1 - MODOS DE REDE DO VIRTUALBOX](./modulo_5.md#51---modos-de-rede-do-virtualbox)
 
-- **Sistema Operacional Hospedeiro:** <p align="justify">Windows 8 ou superior, macOS 10.13 ou superior, distribuições Linux modernas ou Solaris.</p>
-- **Processador:** <p align="justify">Arquitetura x86 de 64 bits, com suporte a virtualização por hardware (Intel VT-x ou AMD-V) ativada na BIOS/UEFI.</p>
-- **Memória RAM:** <p align="justify">Mínimo de 4 GB (o ideal é ter 8 GB ou mais para trabalhar com várias VMs).</p>
-- **Armazenamento:** <p align="justify">Espaço livre suficiente para armazenar discos virtuais e snapshots (mínimo recomendado: 20 GB livres).</p>
-- **Conexão com a Internet:** <p align="justify">Necessária para baixar o instalador e eventuais pacotes de extensão.</p>
+[5.2 - CRIANDO REDE HOST-ONLY](./modulo_5.md#52---criando-rede-host-only)
 
-> <p align="justify">💡Dica: Caso sua CPU tenha suporte a virtualização, mas ela esteja desativada, será necessário habilitar a função na BIOS/UEFI antes de prosseguir.</p>
+[5.3 - CONFIGURANDO A VM PARA USAR HOST-ONLY](./modulo_5.md#53---configurando-a-vm-para-usar-host-only)
 
-### 2.2 Baixando o VirtualBox
+[5.4 - CONFIGURANDO IP FIXO NO ORACLE LINUX](./modulo_5.md#54---configurando-ip-fixo-no-oracle-linux)
 
-<p align="justify">O VirtualBox pode ser baixado diretamente do site oficial da Oracle:</p>
+[5.5 - TESTANDO CONECTIVIDADE](./modulo_5.md#55---testando-conectividade)
 
-Acesse: https://www.virtualbox.org
-No menu lateral, clique em Downloads.
-Escolha o pacote adequado ao seu sistema operacional hospedeiro:
-Windows hosts
-macOS hosts
-Linux distributions
-(Opcional) Baixe também o Extension Pack, que adiciona recursos como suporte a USB 2.0/3.0, inicialização via PXE e criptografia de disco.
-💡 Importante: Sempre utilize a versão mais recente, pois ela contém correções de segurança e melhorias de desempenho.
+[6 - INSTALANDO O SERVIÇO NGINX](./modulo_6.md)
 
-### 2.3 Instalando o VirtualBox
+[6.1 - O QUE É O NGINX ?]()
 
+[6.2 - ATUALIZANDO OS PACOTES]()
 
-### 2.4 Primeiros Passos
+[6.3 - INSTALANDO O NGINX]()
 
+[6.4 - INICIANDO O SERVIÇO NGINX]()
 
-### 2.5 Criando sua Primeira VM (sem instalar ainda)
+[6.5 - VERIFICANDO O STATUS]()
 
+[6.6 - AJUSTANDO O FIREWALL]()
 
-### 2.6 Configurações adicionais (antes da instalação)
+[6.7 - ACESSANDO PELO NAVEGADOR (MÁQUINA HOST)]()
 
+[7 - CRIANDO URL AMIGÁVEL NO HOST](./modulo_7.md)
 
-### 2.7 Snapshots
+[7.1 - O PROBLEMA DE USAR IPS]()
 
+[7.2 - SOLUÇÃO: USAR O ARQUIVO hosts]()
 
-### 🔚 Conclusão dos Módulos 1 e 2
+[7.3 - CRIANDO O MAPEAMENTO]()
 
+[7.4 - ACESSANDO O SERVIÇO PELO NAVEGADOR]()
+
+[7.5 - DICAS PARA NOMES MAIS PROFISSIONAIS]()
+
+[8 - ENCERRAMENTO E PRÓXIMOS PASSOS](./modulo_8.md)
+
+[8.1 - O QUE FOI CONSTRUÍDO]()
+
+[8.2 - EXPORTANDO SUA VM]()
+
+[8.3 - DICAS PARA PRÓXIMOS PROJETOS]()
+
+[8.4 - CONVITE DA IAMANDU TECH ACADEMY]()
+
+[9 - REFERÊNCIAS](./modulo_9.md)
