@@ -46,14 +46,22 @@
 **No Windows:**
 
 -   Execute o instalador .exe baixado.
+
 ![Instalação do VirtualBox I](./media/images/1_003.png)
+
 -   Aceite os termos de licença.
+
 ![Instalação do VirtualBox II](./media/images/1_004.png)
+
 -   Escolha os componentes a instalar (mantenha as opções padrão).
 -   Defina o local de instalação.
+
 ![Instalação do VirtualBox III](./media/images/1_005.png)
+
 -   Clique em **Install** e aguarde a conclusão.
+
 ![Instalação do VirtualBox IV](./media/images/1_006.png)
+
 -   Ao final, o VirtualBox estará pronto para uso.
 
 **No Linux:**
