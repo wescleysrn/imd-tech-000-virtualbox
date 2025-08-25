@@ -70,40 +70,40 @@
 
 [6 - INSTALANDO O SERVIÇO NGINX](./modulo_6.md)
 
-[6.1 - O QUE É O NGINX ?]()
+[6.1 - O QUE É O NGINX ?](./modulo_6.md#61---o-que-é-o-nginx-)
 
-[6.2 - ATUALIZANDO OS PACOTES]()
+[6.2 - ATUALIZANDO OS PACOTES](./modulo_6.md#62---atualizando-os-pacotes)
 
-[6.3 - INSTALANDO O NGINX]()
+[6.3 - INSTALANDO O NGINX](./modulo_6.md#63---instalando-o-nginx)
 
-[6.4 - INICIANDO O SERVIÇO NGINX]()
+[6.4 - INICIANDO O SERVIÇO NGINX](./modulo_6.md#64---iniciando-o-serviço-nginx)
 
-[6.5 - VERIFICANDO O STATUS]()
+[6.5 - VERIFICANDO O STATUS](./modulo_6.md#65---verificando-o-status)
 
-[6.6 - AJUSTANDO O FIREWALL]()
+[6.6 - AJUSTANDO O FIREWALL](./modulo_6.md#66---ajustando-o-firewall)
 
-[6.7 - ACESSANDO PELO NAVEGADOR (MÁQUINA HOST)]()
+[6.7 - ACESSANDO PELO NAVEGADOR (MÁQUINA HOST)](./modulo_6.md#67---acessando-pelo-navegador-máquina-host)
 
 [7 - CRIANDO URL AMIGÁVEL NO HOST](./modulo_7.md)
 
-[7.1 - O PROBLEMA DE USAR IPS]()
+[7.1 - O PROBLEMA DE USAR IPS](./modulo_7.md#71---o-problema-de-usar-ips)
 
-[7.2 - SOLUÇÃO: USAR O ARQUIVO hosts]()
+[7.2 - SOLUÇÃO: USAR O ARQUIVO hosts](./modulo_7.md#72---solução-usar-o-arquivo-hosts)
 
-[7.3 - CRIANDO O MAPEAMENTO]()
+[7.3 - CRIANDO O MAPEAMENTO](./modulo_7.md#73---criando-o-mapeamento)
 
-[7.4 - ACESSANDO O SERVIÇO PELO NAVEGADOR]()
+[7.4 - ACESSANDO O SERVIÇO PELO NAVEGADOR](./modulo_7.md#74---acessando-o-serviço-pelo-navegador)
 
-[7.5 - DICAS PARA NOMES MAIS PROFISSIONAIS]()
+[7.5 - DICAS PARA NOMES MAIS PROFISSIONAIS](./modulo_7.md#75---dicas-para-nomes-mais-profissionais)
 
 [8 - ENCERRAMENTO E PRÓXIMOS PASSOS](./modulo_8.md)
 
-[8.1 - O QUE FOI CONSTRUÍDO]()
+[8.1 - O QUE FOI CONSTRUÍDO](./modulo_8.md#81---o-quê-foi-construído-)
 
-[8.2 - EXPORTANDO SUA VM]()
+[8.2 - EXPORTANDO SUA VM](./modulo_8.md#82---exportando-sua-vm)
 
-[8.3 - DICAS PARA PRÓXIMOS PROJETOS]()
+[8.3 - DICAS PARA PRÓXIMOS PROJETOS](./modulo_8.md#83---dicas-para-próximos-projetos)
 
-[8.4 - CONVITE DA IAMANDU TECH ACADEMY]()
+[8.4 - CONVITE DA IAMANDU TECH ACADEMY](./modulo_8.md#84---convite-da-iamandu-tech-academy)
 
 [9 - REFERÊNCIAS](./modulo_9.md)
