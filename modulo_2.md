@@ -22,6 +22,9 @@
 <p align="justify">O VirtualBox pode ser baixado diretamente do site oficial da Oracle:</p>
 
 1.  Acesse: https://www.virtualbox.org
+
+![Site VirtualBox](./media/images/1_001.png)
+
 2.  No menu lateral, clique em **Downloads**.
 3.  Escolha o pacote adequado ao seu sistema operacional hospedeiro:
 
@@ -29,9 +32,9 @@
     -   **macOS hosts**
     -   **Linux distributions**
 
-4.  (Opcional) Baixe também o **Extension Pack**, que adiciona recursos
-    como suporte a USB 2.0/3.0, inicialização via PXE e criptografia de
-    disco.
+4.  (Opcional) Baixe também o **Extension Pack**, que adiciona recursos como suporte a USB 2.0/3.0, inicialização via PXE e criptografia de disco.
+
+![Download VirtualBox](./media/images/1_002.png)
 
 > [!TIP]
 > <p align="justify">Sempre utilize a versão mais recente, pois ela contém correções de segurança e melhorias de desempenho.</p>
